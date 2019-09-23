@@ -1,0 +1,14 @@
+import java.util.Scanner;
+   public class Age{
+        public static void main (String[] args){
+        int MINOR = 18;
+        System.out.print("who's your fangling:"); 		
+        Scanner scan = new Scanner(System.in);
+        int age = scan.nextInt();
+        System.out.print("your age is " + age);
+ 		if( age < MINOR )
+		   System.out.println("xiaojj,");
+		   System.out.println("dajj");
+		   }
+		   }
+		   
